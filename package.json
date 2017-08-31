@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
   },
-  "repository": "https://github.com/atom/nc-gcode",
+  "repository": "https://github.com/Milys/nc-gcode",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
