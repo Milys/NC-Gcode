@@ -1,0 +1,56 @@
+'fileTypes': [
+  'ptp'
+  'nc'
+  'gcode'
+  'ncf'
+  'cnc'
+  'eia'
+  'maz'
+]
+'foldingStartMarker': '\\('
+'foldingStopMarker': '\\)'
+'name': 'NC-Gcode'
+'patterns': [
+  {
+    'begin': '\\('
+    'end': '\\)'
+    'name': 'string.nc-gcode'
+  }
+  {
+    'match': '[nN][ \\t]*[0-9\\.]+'
+    'name': 'begin.control.ncode.nc-nc-gcode'
+  }
+  {
+    'match': '[gG][ \\t]*[0-9][0-9\\.]*'
+    'name': 'keyword.control.nc-gcode.nc-gcode'
+  }
+  {
+    'match': '[mM][ \\t]*[0-9][0-9\\.]*'
+    'name': 'constant.mcode.nc-gcode'
+  }
+  {
+    'match': '[dDfFhHsStT][ \\t]*[0-9][0-9\\.]*'
+    'name': 'variable.dDfFhHsStTcode.nc-gcode'
+  }
+  {
+    'match': '(?i)[rRzZ][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'name': 'support.function.rzcode.gcod'
+  }
+  {
+    'match': '(?i)[XAUI][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'name': 'constant.xcode.nc-gcode'
+  }
+  {
+    'match': '(?i)[YBVJ][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'name': 'string.ycode.nc-gcode'
+  }
+  {
+    'match': '[pPqQeE]'
+    'name': 'string.parameter.nc-gcode'
+  }
+  {
+    'match': '[cCwWkK][ \\t]*[\\-\\+]?[0-9\-\.]+'
+    'name': 'string.control.mcode.nc-gcode'
+  }
+]
+'scopeName': 'source.nc-gcode'

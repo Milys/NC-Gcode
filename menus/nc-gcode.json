@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nc-gcode",
+        "command": "nc-gcode:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nc-gcode",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nc-gcode:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
