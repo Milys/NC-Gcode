@@ -2,7 +2,7 @@
   "name": "nc-gcode",
   "main": "./lib/nc-gcode",
   "version": "0.1.0",
-  "description": "This package provides syntax highlighting for Gcode in Atom Text Editor.",
+  "description": "Syntax highlighting for Gcode.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
