@@ -1,7 +1,7 @@
 {
   "name": "nc-gcode",
   "main": "./lib/nc-gcode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Syntax highlighting for Gcode.",
   "keywords": [],
   "activationCommands": {
