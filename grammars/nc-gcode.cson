@@ -35,6 +35,11 @@
     'name': 'string.nc-gcode'
   }
   {
+    'begin': ';'
+    'end': '\n'
+    'name': 'comment.line.nc-gcode'
+  }  
+  {
     'match': '[nN][ \\t]*[0-9\\.]+'
     'name': 'begin.control.ncode.nc-nc-gcode'
   }
